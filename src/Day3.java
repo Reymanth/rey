@@ -26,16 +26,6 @@ void main() {
         int val = arr[i];
         if (val > 40) {
 
-
-
-
-
-
-
-
-
-
-
             System.out.print(val+" ");
         }
 
