@@ -65,6 +65,7 @@ for ( int col=0; col< studentsattendance[row].length; col++ ){
     }
 
  */
+/*
 void main(){
     System.out.println(add(4, 5));
     System.out.println(sub(5, 7));
@@ -83,6 +84,9 @@ public int multiply(int a, int b){
 public int div(int a, int b){
     return a/b;
 }
+
+ */
+
 
 
 
