@@ -1,6 +1,6 @@
-/*
-public class Day6{
-   static class Car{
+
+//public class Day6{
+/*   static class Car{
         String colour;
         String model;
         int speed;
@@ -71,6 +71,7 @@ class car {
 }
 
  */
+/*
 class Car {
     String color;
     String brand;
@@ -122,7 +123,78 @@ class CarApp {
     }
 }
 
+ */
 
 
+
+
+public class Day6{
+    static class Student {
+        String name, dept;
+        int regNo;
+        int maths, physics, chemistry;
+
+        Student(String n, int r, String d) {
+            name = n;
+            regNo = r;
+            dept = d;
+        }
+        int getMaths() {
+            return maths;
+        }
+        int getPhysics() {
+            return physics;
+        }
+
+        int getChemistry() {
+            return chemistry;
+        }
+
+        void setMaths(int m) {
+            maths = m;
+        }
+
+        void setPhysics(int p) {
+            physics = p;
+        }
+
+        void setChemistry(int c) {
+            chemistry = c;
+        }
+        void updateMarks(int m) {
+            maths = m;
+        }
+
+        void updateMarks(int m, int p) {
+            maths = m;
+            physics = p;
+        }
+
+        void updateMarks(int m, int p, int c) {
+            maths = m;
+            physics = p;
+            chemistry = c;
+        }
+
+        void show() {
+            System.out.println(name + " " + regNo + " " + dept);
+            System.out.println(maths + " " + physics + " " + chemistry);
+
+        }
+    }
+    public static void main(String[] args) {
+        Student s1 = new Student("Saran:", 333, ":AI");
+        Student s2 = new Student("Balaji:", 444, ":AIDS");
+        Student s3 = new Student("Dhaush:", 555,":CSA");
+        s1.updateMarks(80, 85, 90);
+        s2.setMaths(70);
+        s2.setPhysics(85);
+        s2.setChemistry(95);
+        s3.updateMarks(98, 78,79);
+        s1.show();
+        s2.show();
+        s3.show();
+    }
+}
 
 
