@@ -6,6 +6,7 @@ void main(){
 
  */
 
+/*
 void main(){
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter your name:");
@@ -19,4 +20,6 @@ void main(){
     System.out.println("Dept:"+dept);
     System.out.println("Age:"+age);
 }
+
+ */
 
