@@ -185,7 +185,7 @@ public class Day6{
     public static void main(String[] args) {
         Student s1 = new Student("Saran:", 333, ":AI");
         Student s2 = new Student("Balaji:", 444, ":AIDS");
-        Student s3 = new Student("Dhaush:", 555,":CSA");
+        Student s3 = new Student("Dhanush:", 555,":CSA");
         s1.updateMarks(80, 85, 90);
         s2.setMaths(70);
         s2.setPhysics(85);
