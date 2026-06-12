@@ -1,3 +1,4 @@
+/*
 public class Day7 {
 
     static class Request {
@@ -67,5 +68,95 @@ public class Day7 {
         ODRequest od =
                 new ODRequest("KUMAR", "SPORTS", "14/03/2026");
         od.rejectODRequest();
+    }
+}
+
+ */
+/*
+public class Day7 {
+    static class Payment {
+        String amount;
+
+        void transfer() {
+            System.out.println("Transferring a amount");
+
+        }
+    }
+
+    static class UPIpayment extends Payment {
+        @Override
+        void transfer() {
+            System.out.println("UPI payments is Succeeded and Paid");
+        }
+    }
+
+    static class Cardpayment extends Payment {
+        @Override
+        void transfer() {
+            System.out.println("Card payment  is Paid");
+        }
+
+    }
+static class NetBankingpayment extends Payment{
+        @Override
+    void transfer(){
+            System.out.println("Net Banking is Paid");
+        }
+        static void main(){
+            UPIpayment upIpayment = new UPIpayment();
+            upIpayment.transfer();
+            Cardpayment cardpayment = new Cardpayment();
+            cardpayment.transfer();
+            NetBankingpayment netBankingpayment = new NetBankingpayment();
+            netBankingpayment.transfer();
+
+        }
+}
+
+}
+
+ */
+public class Day7 {
+
+    static class Payment {
+        void transfer() {
+            System.out.println("Transferring a amount");
+        }
+    }
+
+    static class UPIpayment extends Payment {
+        @Override
+        void transfer() {
+            System.out.println("UPI payment($) is done");
+            System.out.println(" ");
+        }
+    }
+
+    static class Cardpayment extends Payment {
+        @Override
+        void transfer() {
+            System.out.println("Card payment($) is done");
+            System.out.println(" ");
+        }
+    }
+
+    static class NetBankingpayment extends Payment {
+        @Override
+        void transfer() {
+            System.out.println("Net Banking payment($) is done");
+            System.out.println(" ");
+        }
+    }
+
+    public static void main(String[] args) {
+
+        UPIpayment upIpayment = new UPIpayment();
+        upIpayment.transfer();
+
+        Cardpayment cardpayment = new Cardpayment();
+        cardpayment.transfer();
+
+        NetBankingpayment netBankingpayment = new NetBankingpayment();
+        netBankingpayment.transfer();
     }
 }
