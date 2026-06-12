@@ -117,6 +117,7 @@ static class NetBankingpayment extends Payment{
 
  */
 public class Day7 {
+    // correct code
 
     static class Payment {
         void transfer() {
