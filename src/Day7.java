@@ -116,9 +116,9 @@ static class NetBankingpayment extends Payment{
 }
 
  */
+/*
 public class Day7 {
     // correct code
-
     static class Payment {
         void transfer() {
             System.out.println("Transferring a amount");
@@ -161,3 +161,55 @@ public class Day7 {
         netBankingpayment.transfer();
     }
 }
+
+ */
+
+
+/*
+
+public  class Day7 {
+
+    interface Employee {
+        String solveproblem();
+
+        String work();
+    }
+
+    static  class BankEmployee implements Employee{
+        @Override
+        public String solveproblem(){
+            System.out.println("Solving Bank Problem");
+            return "Solving Bank Problem";
+        }
+        public String work(){
+            System.out.println("Working as a Bank Employee");
+            return "Working as a Bank Employee";
+        }
+
+    }
+    static class CheckingEmployee implements Employee{
+        @Override
+        public String solveproblem() {
+            System.out.println("Checking the customer ID");
+            return "Checking the customer ID";
+        }
+        public String work(){
+            System.out.println("Working as a Checking employee");
+            return "Working as a Checking employee";
+        }
+    }
+    static  void main(){
+        BankEmployee bank = new BankEmployee();
+        bank.solveproblem();
+        bank.work();
+        CheckingEmployee checking = new CheckingEmployee();
+        checking.solveproblem();
+        checking.work();
+
+
+            }
+        }
+
+
+
+ */
