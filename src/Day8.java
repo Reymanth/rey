@@ -1,4 +1,5 @@
 
+/*
 public class Day8 {
     record CourseRecord(String department, String coursename){
     }
@@ -10,3 +11,5 @@ public class Day8 {
 
     }
 }
+
+ */
