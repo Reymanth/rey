@@ -1,4 +1,4 @@
-
+/*
 import java.util.ArrayList;
 
         public class Day10 {
@@ -20,3 +20,36 @@ import java.util.ArrayList;
                 }
             }
         }
+
+ */
+
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Day10 {
+
+static void process(LinkedList<String>list){
+    System.out.println("REMOVED:"+list.removeFirst());
+}
+
+
+    static void main(){
+        LinkedList<String> list= new LinkedList<>();
+        list.add("Reymanth");
+        list.add("Pradhish");
+        list.add("Madhu");
+        list.add("Supriya");
+        list.add("Suthaa");
+        list.add("Ram");
+
+
+            while (list.size()>1){
+           process(list);
+
+        }
+        System.out.println("~ Empty ~");
+
+   }
+   }
