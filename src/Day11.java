@@ -8,8 +8,9 @@ public class Day11 {
         Set.add("Madhu");
         Set.add("Pradhish");
         Set.add("Pradhish");
-
-
+        Set.add("Reymanth");
+        Set.add("Supriya");
+        Set.add("Suthaa");
         for (String s : Set){
             System.out.println(s);
         }
