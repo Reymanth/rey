@@ -55,7 +55,7 @@ static void process(LinkedList<String>list){
    }
  */
 
-
+/*
 import java.util.LinkedList;
 
 public class Day10 {
@@ -93,5 +93,28 @@ public class Day10 {
         list.set(2, "704 - Darun - 95");
         System.out.println("After Updating");
         System.out.println(list);
+    }
+}
+
+ */
+public class Day10 {
+    static void main(){
+        String name = null;
+        try{
+            System.out.println(name.charAt(0));
+            System.out.println(55/0);
+        } catch (ArithmeticException e) {
+            System.out.println("Arithmetic Exception");
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Array Index Out OfBounds Exception");
+
+        }catch (Exception e){
+            System.out.println("Exception");
+        }finally {
+            System.out.println("This will always execute");
+            name="";
+        }
+        System.out.println("Still Running");
+        System.out.println("Name :"+ name);
     }
 }
