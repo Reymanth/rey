@@ -72,7 +72,7 @@ public class Day10 {
         list.add("701 - Arjun - 95");
         list.add("702 - Varma - 98");
         list.add("703 - Reddy - 90");
-        list.add("704 - Rahul - 78");
+        list.add("704 - Dhoni - 78");
         list.add("705 - Virat - 85");
 
         System.out.println("Student List:");
