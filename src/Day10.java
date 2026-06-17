@@ -97,7 +97,7 @@ public class Day10 {
 }
 
  */
-
+/*
 public class Day10 {
     static void main(){
         String name = null;
@@ -119,3 +119,5 @@ public class Day10 {
         System.out.println("Name :"+ name);
     }
 }
+
+ */
