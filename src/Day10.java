@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
  */
 
-
+/*
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -53,3 +53,45 @@ static void process(LinkedList<String>list){
 
    }
    }
+ */
+
+
+import java.util.LinkedList;
+
+public class Day10 {
+
+    static void process(LinkedList<String> list) {
+        System.out.println("Removed : " + list.removeFirst());
+    }
+
+    public static void main(String[] args) {
+
+        LinkedList<String> list = new LinkedList<>();
+
+
+        list.add("701 - Arjun - 95");
+        list.add("702 - Varma - 98");
+        list.add("703 - Reddy - 90");
+        list.add("704 - Rahul - 78");
+        list.add("705 - Virat - 85");
+
+        System.out.println("Student List:");
+        System.out.println(list);
+
+
+        list.add("706 - Maran - 92");
+        System.out.println("After Adding:");
+        System.out.println(list);
+
+
+        process(list);
+
+        System.out.println("After Removing:");
+        System.out.println(list);
+
+
+        list.set(2, "704 - Darun - 95");
+        System.out.println("After Updating");
+        System.out.println(list);
+    }
+}
