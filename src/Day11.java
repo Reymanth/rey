@@ -26,6 +26,7 @@ public class Day11 {
 }
 
  */
+/*
 public class Day11 {
     public static void main(String[]args){
         Map<String,Integer> person = new HashMap<>();
@@ -40,3 +41,5 @@ public class Day11 {
         });
     }
 }
+
+ */
