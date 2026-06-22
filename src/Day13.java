@@ -45,8 +45,7 @@ import java.util.List;
 public class Day13 {
 
     static void main(){
-        Path path = Path.of("src/file", "" +
-                "students.csv");
+        Path path = Path.of("src/file", "students.csv");
         try {
             List<String> students = Files.readAllLines(path);
 
@@ -63,6 +62,7 @@ public class Day13 {
     }
 
 }
+
 
 
 
