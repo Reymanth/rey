@@ -1,3 +1,4 @@
+
 public class Day14Factory {
     interface Transcation {
         void send(String to, String message);
@@ -32,6 +33,7 @@ public class Day14Factory {
         getTranscation(factory, type).send(" 123467798", "Amount 800 credited");
     }
 }
+
 
 
 
